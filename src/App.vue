@@ -1,26 +1,29 @@
 <template>
-  <div id="app">
-    <b-navbar fixed="top" id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/faq">FAQ</router-link> |
-      <router-link to="/schedule">Schedule</router-link> |
-      <router-link to="/map">Map</router-link> |
-      <router-link to="/resources">Resources</router-link> |
-      <router-link to="/workshops">Workshops</router-link> |
-      <router-link to="/prizes">Prizes</router-link>
-    </b-navbar>
-    <router-view/>
+  <div id="app">    
+    <div class="navContain">
+      <b-navbar fixed="top" id="nav">
+          <router-link to="/">Home</router-link> |
+          <router-link to="/faq">FAQ</router-link> |
+          <router-link to="/schedule">Schedule</router-link> |
+          <router-link to="/map">Map</router-link> |
+          <router-link to="/resources">Resources</router-link> |
+          <router-link to="/workshops">Workshops</router-link> |
+          <router-link to="/prizes">Prizes</router-link>
+      </b-navbar>
+      <router-view/>
+    </div>
+    
   </div>
 </template>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,700');
 
 body,html{
-  padding-top: 60px;
+  padding-top: 9vw;
   width: 100%;
   height: 100vh;
-  background-color: #282561;
+  background-color:#a73d59;
 
   background-image: linear-gradient(
     to bottom,
@@ -35,11 +38,11 @@ body,html{
     hsl(323.01, 41.05%, 33.21%) 71%,
     hsl(331.84, 43.23%, 36.98%) 77.2%,
     hsl(338.8, 44.94%, 40.92%) 82.7%,
-    hsl(344.48, 46.3%, 45.03%) 87.6%,
+    hsl(344, 46%, 45%) 87.6%,
     hsl(349.23, 47.38%, 49.3%) 91.8%,
     hsl(353.29, 55.98%, 53.71%) 95.3%,
     hsl(356.85, 68.33%, 58.26%) 98%,
-    hsl(0, 84.13%, 62.94%) 100%
+    hsl(0, 84%, 63%) 100%
   );
 }
 
@@ -50,13 +53,14 @@ body,html{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #ffffff;
+  font-size: 1.5vw;
 }
 
 
 
 #nav {
-  background-color: #7F779B;
+  background-color: #6b6691;
   width: 100%;
   height: 5vw;
 
