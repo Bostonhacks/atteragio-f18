@@ -19,52 +19,50 @@
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,700');
 
-body,html{
+body{
   padding-top: 9vw;
   width: 100%;
-  height: 100vh;
+  height: 155vh;
   background-color:#a73d59;
 
   background-image: linear-gradient(
     to bottom,
-    hsl(243, 45.45%, 25.88%) 0%,
-    hsl(244.69, 45.23%, 25.91%) 10.8%,
-    hsl(249.68, 44.51%, 26.01%) 21%,
-    hsl(257.48, 43.27%, 26.18%) 30.8%,
-    hsl(267.68, 41.51%, 26.42%) 40%,
-    hsl(280.2, 39.26%, 26.72%) 48.6%,
-    hsl(295.36, 36.56%, 27.09%) 56.7%,
-    hsl(311.31, 38.26%, 29.66%) 64.1%,
-    hsl(323.01, 41.05%, 33.21%) 71%,
-    hsl(331.84, 43.23%, 36.98%) 77.2%,
-    hsl(338.8, 44.94%, 40.92%) 82.7%,
-    hsl(344, 46%, 45%) 87.6%,
-    hsl(349.23, 47.38%, 49.3%) 91.8%,
-    hsl(353.29, 55.98%, 53.71%) 95.3%,
-    hsl(356.85, 68.33%, 58.26%) 98%,
-    hsl(0, 84%, 63%) 100%
+    hsl(243, 47%, 25%) 0%,
+    hsl(243.26, 46.43%, 24.91%) 13.8%,
+    hsl(244.67, 46.23%, 24.93%) 26.4%,
+    hsl(248.25, 45.7%, 25.01%) 38%,
+    hsl(254.52, 44.68%, 25.15%) 48.4%,
+    hsl(263.59, 43.09%, 25.37%) 57.7%,
+    hsl(275.57, 40.85%, 25.69%) 66%,
+    hsl(290.88, 37.97%, 26.11%) 73.3%,
+    hsl(308.95, 38.24%, 28.23%) 79.7%,
+    hsl(322.67, 41.38%, 32.25%) 85.1%,
+    hsl(332.78, 43.77%, 36.63%) 89.6%,
+    hsl(340.57, 45.6%, 41.33%) 93.3%,
+    hsl(346.8, 46.99%, 46.33%) 96.1%,
+    hsl(351.93, 51.26%, 51.62%) 98.2%,
+    hsl(356.26, 65.21%, 57.16%) 99.4%,
+    hsl(0, 84.13%, 62.94%) 100%
   );
 }
 
 
-#app {
-  
+
+#app {  
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #ffffff;
-  font-size: 1.5vw;
+  font-size: 1.25vw;
+  
 }
-
-
 
 #nav {
   background-color: #6b6691;
   width: 100%;
   height: 5vw;
 
- 
   a {
     font-weight: bold;
     color: #2c3e50;
