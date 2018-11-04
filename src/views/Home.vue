@@ -103,7 +103,7 @@ export default {
 .heroText {
   color: white;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 3.7vw;
 }
 
@@ -128,7 +128,8 @@ export default {
 
 #links {
   padding-top: 8vw;
-  margin-left: 8vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .links{
