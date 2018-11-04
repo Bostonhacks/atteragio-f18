@@ -1,5 +1,12 @@
 <template>
   <div>
+    <b-container>
+      <b-row align-h="end">
+        <div style="margin-top: -1.5vw;">
+          <div id="redot" style="margin-right: 1vh"></div><span style="font-size: 1.75vw; font-weight: 400; display: inline;">Live</span>
+        </div>
+      </b-row>
+    </b-container>
     <b-container> 
         <b-row class="homeHead">
             <b-col>Flair</b-col>
@@ -110,7 +117,7 @@ export default {
 }
 
 .homeHead{
-  padding-top: 17vh;
+  padding-top: 14vh;
 } 
 
 @media (max-width: 750px) {
@@ -144,6 +151,16 @@ background-color: #ffffff;
 width: 40%;
 margin-left: auto;
 margin-right: auto;
+}
+
+#redot{
+  border: 1px solid red;
+  border-radius: 50px;
+  background-color: red;
+  height: 0.75vw;
+  width: 0.75vw;
+  display: inline-block;
+
 }
 
 

@@ -1,23 +1,32 @@
 <template>
   <div id="app">    
     <div class="navContain">
-      <b-navbar fixed="top" id="nav">
-          <router-link to="/">Home</router-link> |
-          <router-link to="/faq">FAQ</router-link> |
-          <router-link to="/schedule">Schedule</router-link> |
-          <router-link to="/map">Map</router-link> |
-          <router-link to="/resources">Resources</router-link> |
-          <router-link to="/workshops">Workshops</router-link> |
-          <router-link to="/prizes">Prizes</router-link>
+      <b-navbar fixed="top" id="nav" style="display:flex; justify-content:flex-end; padding: 0 10vw 0 5vw;" >
+          
+            <div>
+              <img id="BHacks" src ="./assets/Logos/BHacks_HorzWhte.svg"/>
+            </div>
+
+            <div >
+              <router-link class="routelink" to="/">Home</router-link>
+              <router-link class="routelink" to="/faq">FAQ</router-link>
+              <router-link class="routelink" to="/schedule">Schedule</router-link>
+              <router-link class="routelink" to="/map">Map</router-link>
+              <router-link class="routelink" to="/resources">Resources</router-link>
+              <router-link class="routelink" to="/workshops">Workshops</router-link>
+              <router-link class="routelink" to="/prizes">Prizes</router-link>
+            </div>
+        
       </b-navbar>
       <router-view/>
+      
     </div>
     
   </div>
 </template>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 
 body{
   padding-top: 9vw;
@@ -27,26 +36,24 @@ body{
 
   background-image: linear-gradient(
     to bottom,
-    hsl(243, 47%, 25%) 0%,
-    hsl(243.26, 46.43%, 24.91%) 13.8%,
-    hsl(244.67, 46.23%, 24.93%) 26.4%,
-    hsl(248.25, 45.7%, 25.01%) 38%,
-    hsl(254.52, 44.68%, 25.15%) 48.4%,
-    hsl(263.59, 43.09%, 25.37%) 57.7%,
-    hsl(275.57, 40.85%, 25.69%) 66%,
-    hsl(290.88, 37.97%, 26.11%) 73.3%,
-    hsl(308.95, 38.24%, 28.23%) 79.7%,
-    hsl(322.67, 41.38%, 32.25%) 85.1%,
-    hsl(332.78, 43.77%, 36.63%) 89.6%,
-    hsl(340.57, 45.6%, 41.33%) 93.3%,
-    hsl(346.8, 46.99%, 46.33%) 96.1%,
-    hsl(351.93, 51.26%, 51.62%) 98.2%,
-    hsl(356.26, 65.21%, 57.16%) 99.4%,
+    hsl(243.05, 46.46%, 24.9%) 0%,
+    hsl(243.26, 46.43%, 24.91%) 14.8%,
+    hsl(244.67, 46.23%, 24.93%) 27.2%,
+    hsl(248.25, 45.7%, 25.01%) 37.3%,
+    hsl(254.52, 44.68%, 25.15%) 45.5%,
+    hsl(263.59, 43.09%, 25.37%) 52.1%,
+    hsl(275.57, 40.85%, 25.69%) 57.5%,
+    hsl(290.88, 37.97%, 26.11%) 61.9%,
+    hsl(308.95, 38.24%, 28.23%) 65.7%,
+    hsl(322.67, 41.38%, 32.25%) 69.1%,
+    hsl(332.78, 43.77%, 36.63%) 72.5%,
+    hsl(340.57, 45.6%, 41.33%) 76.2%,
+    hsl(346.8, 46.99%, 46.33%) 80.5%,
+    hsl(351.93, 51.26%, 51.62%) 85.7%,
+    hsl(356.26, 65.21%, 57.16%) 92.1%,
     hsl(0, 84.13%, 62.94%) 100%
   );
 }
-
-
 
 #app {  
   font-family: "Roboto", Helvetica, Arial, sans-serif;
@@ -64,11 +71,27 @@ body{
   height: 5vw;
 
   a {
-    font-weight: bold;
-    color: #2c3e50;
+    font-weight: 400;
+    font-size: 1.1vw;
+    color: #ffffff;
     &.router-link-exact-active {
-      color: #42b983;
+      color: #928AA7;
+      border-bottom: 5px solid #928aa7
+    }
+    &.router-link-h{
+      text-decoration: none;
     }
   }
+}
+.routelink{
+  margin-right: 4vw;
+  margin-bottom: 10vh;
+  height: 100%;
+}
+#BHacks{
+  height: 11vw;
+  width: 11vw;
+  margin-right: 20vw;
+
 }
 </style>
