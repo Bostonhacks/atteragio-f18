@@ -29,7 +29,7 @@
           </div>
           
           <div>
-            <p class=""><span id="bolder">Wifi</span></p>
+            <p class="headInfo"><span id="bolder">Wifi</span></p>
             <p class="info"><span id="bolder">Network:</span> BU Event Guest</p>
             <p class="info"><span id="bolder">Password:</span> w!flP/ss%#rd</p>
           </div>
@@ -40,7 +40,7 @@
             <img class="icon" src="../assets/Icons/slack.svg"/>
           </div>
           <div>
-            <p class=""><span id="bolder">Slack</span></p>
+            <p class="headInfo"><span id="bolder">Slack</span></p>
             <p class="info">Click here to join our Slack channel!</p>
             <p class="info">(link here)</p>
           </div>
@@ -52,7 +52,7 @@
           </div>
           
           <div>
-            <p class=""><span id="bolder">Wifi</span></p>
+            <p class="headInfo"><span id="bolder">Devpost</span></p>
             <p class="info">Click here for project submission</p>
             <p class="info">and prize info (link here)</p>
           </div>
@@ -117,7 +117,7 @@ export default {
 }
 
 .homeHead{
-  padding-top: 14vh;
+  padding-top: 16vh;
 } 
 
 @media (max-width: 750px) {
@@ -127,7 +127,8 @@ export default {
 }
 
 #links {
-  padding-top: 6.5vw;
+  padding-top: 8vw;
+  margin-left: 8vw;
 }
 
 .links{
@@ -142,8 +143,14 @@ export default {
   margin-bottom: 2vh;
 }
 
+.headInfo{
+  margin-bottom: 0.1vw;
+}
+
 .info{
   margin-bottom: -0.5vh;
+  font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
+  font-size: 1.1vw;
 }
 
 hr {
