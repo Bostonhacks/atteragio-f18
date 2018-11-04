@@ -54,6 +54,13 @@ body{
   );
 }
 
+/* @media (max-width: 700px){
+  body{
+    width: 100%;
+    height: 100vw;
+  }
+} */
+
 #app {  
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

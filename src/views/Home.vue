@@ -1,19 +1,20 @@
 <template>
   <div>
-    <b-container>
+    <b-container fluid>
       <b-row align-h="end">
-        <div style="margin-top: -1.5vw;">
-          <div id="redot" style="margin-right: 1vh"></div><span style="font-size: 1.75vw; font-weight: 400; display: inline;">Live</span>
+        <div style="margin-top: -1.5vw; margin-right: 10vw;">
+          <div id="redot" style="margin-right: 1vh"></div><span style="font-size: 1.6vw; font-weight: 400;">Live</span>
         </div>
       </b-row>
     </b-container>
-    <b-container> 
+    
+    <b-container fluid> 
         <b-row class="homeHead">
             <b-col>Flair</b-col>
             <b-col cols="6" id="heroText">
               <div >
                 <p class="heroText"> Boston<span id="bolder">Hacks</span> 2018 </p>
-                <p class="date">November 10 &#8211; November 11,2018<br>
+                <p class="date">November 10 &#8211; November 11, 2018<br>
                 775 Commonwealth Avenue, Boston University</p>
               </div>
             </b-col>
@@ -110,6 +111,7 @@ export default {
 .date{
   margin-top: 1vh;
   line-height: 1.75vw;
+  font-weight: 300;
 }
 
 #bolder {
@@ -117,7 +119,7 @@ export default {
 }
 
 .homeHead{
-  padding-top: 16vh;
+  padding-top: 18vh;
 } 
 
 @media (max-width: 750px) {
@@ -134,6 +136,7 @@ export default {
 
 .links{
   width: 90%;
+  margin: 0;
   text-align: start;
 }
 
@@ -149,7 +152,7 @@ export default {
 }
 
 .info{
-  margin-bottom: -0.5vh;
+  margin-bottom: -0.2vw;
   font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
   font-size: 1.1vw;
 }
@@ -162,9 +165,9 @@ margin-right: auto;
 }
 
 #redot{
-  border: 1px solid red;
+  border: 1px solid #f05352;
   border-radius: 50px;
-  background-color: red;
+  background-color: #f05352;
   height: 0.75vw;
   width: 0.75vw;
   display: inline-block;
