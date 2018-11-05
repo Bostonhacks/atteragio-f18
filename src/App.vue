@@ -31,8 +31,11 @@
 body{
   padding-top: 9vw;
   width: 100%;
-  height: 175vh;
+  height: 100%;
   background-color:#a73d59;
+  margin: 0;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
 
   background-image: linear-gradient(
     to bottom,
@@ -68,6 +71,8 @@ body{
   text-align: center;
   color: #ffffff;
   font-size: 1.25vw;
+  
+
   
 }
 
