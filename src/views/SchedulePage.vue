@@ -1,5 +1,12 @@
 <template>
-  <div class="FAQ">
+  <div class="Scheduler">
+    <b-container fluid>
+      <b-row align-h="end">
+        <div style="margin-top: -1.5vw; margin-right: 10vw;">
+          <div id="redot" style="margin-right: 1vh"></div><span style="font-size: 1.6vw; font-weight: 400;">Live</span>
+        </div>
+      </b-row>
+    </b-container>
     <div class="schedule-block">
       <div class="select-date">
         <div v-on:click="changeDate" class="date-tag" v-bind:class="[sat_day ? 'active-tag' : 'inactive-tag']">
@@ -27,7 +34,9 @@
       return {
         sat_day: true,
         timelines: [
-          "8:30","9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30", "18:00"
+          "8:30","9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00",
+          "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30",
+          "16:00", "16:30", "17:00", "17:30", "18:00"
         ],
         sat_events: [ // three categories
           [
@@ -104,9 +113,26 @@
 </script>
 
 <style scoped>
+  #bolder {
+    font-weight: 700;
+    text-align: center;
+  }
+
+  #redot{
+    border: 1px solid #f05352;
+    border-radius: 50px;
+    background-color: #f05352;
+    height: 0.75vw;
+    width: 0.75vw;
+    display: inline-block;
+
+  }
   .schedule-block{
     width: 80%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 4vh;
     background-color: white;
   }
   .select-date{
@@ -145,3 +171,4 @@
     background-color: #a7a1b8;
   }
 </style>
+
