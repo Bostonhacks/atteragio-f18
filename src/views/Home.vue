@@ -129,7 +129,7 @@ export default {
 }
 
 #links {
-  padding-top: 8vw;
+  padding-top: 7vw;
   margin-left: auto;
   margin-right: auto;
 }
