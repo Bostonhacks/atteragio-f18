@@ -1,8 +1,8 @@
 <template>
-  <div id="app">    
+  <div id="app">
     <div class="navContain">
       <b-navbar fixed="top" id="nav" style="display:flex; justify-content:flex-end; padding: 0 8vw 0 5vw;" >
-          
+
             <div>
               <img id="BHacks" src ="./assets/Logos/BHacks_HorzWhte.svg"/>
             </div>
@@ -16,12 +16,12 @@
               <router-link class="routelink" to="/workshops">Workshops</router-link>
               <router-link class="routelink" to="/prizes">Prizes</router-link>
             </div>
-        
+
       </b-navbar>
       <router-view/>
-      
+
     </div>
-    
+
   </div>
 </template>
 
@@ -61,14 +61,14 @@ body{
   }
 } */
 
-#app {  
+#app {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #ffffff;
   font-size: 1.25vw;
-  
+
 }
 
 #nav {
