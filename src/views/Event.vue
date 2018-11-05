@@ -1,8 +1,8 @@
 <template>
   <li class="single-event" v-bind:data-event="type" v-bind:style="{ top: eventTop + 'px', height: eventHeight + 'px' }"> <!-- might remove some of these later -->
-    <a href="#0">
+    <a href="#0" v-on:click="openModal">
       <span class="event-date"> {{start}}-{{end}} </span>
-      <em class="event-name">{{ full_name }}</em>
+      <span class="event-name">{{ full_name }}</span>
     </a>
   </li>
 </template>
@@ -61,6 +61,14 @@
         let duration = getScheduleTimestamp(this.end) - start;
         return (this.event_slot_height * duration / this.unit_duration) + 1;
       }
+    },
+    methods: {
+      openModal: function(event) {
+        event.preventDefault();
+        if (!this.$parent.animating) {
+          this.$emit("openModal");
+        }
+      }
     }
   }
 </script>
@@ -82,15 +90,22 @@
 
   @media only screen and (min-width: 800px) {
     .cd-schedule .event-name {
-      font-size: 2em;
+      font-size: 1.5em;
     }
   }
 
   .cd-schedule .event-date {
-    font-size: 1.4em;
+    font-size: 1em;
     opacity: .7;
     line-height: 1.2;
     margin-bottom: .2em;
   }
 
+  a {
+    color: #A2B9B2;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    padding: 1em;
+  }
 </style>
