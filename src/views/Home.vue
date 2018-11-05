@@ -206,7 +206,7 @@
       </b-row>
 
       <b-row style="padding: 4vw 5vw 4vw 5vw;">
-        <b-col><img class="logo" src="../assets/Logos/Liberty/libertyLogo.png"/></b-col>
+        <b-col><img style="height: 7vw;" src="../assets/Logos/Liberty/libertyLogo.png"/></b-col>
         <b-col><img src="../assets/Logos/MassRobotics/massRoboLogo.png" style="height: 3vw;"/></b-col>
         <b-col><img class="logo" src="../assets/Logos/OneDB/onedbLogo.svg"/></b-col>
         <b-col><img class="logo" src="../assets/Logos/Raytheon/raytheonLogo.png"/></b-col>
