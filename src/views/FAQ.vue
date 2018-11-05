@@ -1,6 +1,5 @@
 <template>
   <div class="FAQ">
-    <!-- <Live/> -->
     <b-container fluid>
       <b-row align-h="end">
         <div style="margin-top: -1.5vw; margin-right: 10vw;">
