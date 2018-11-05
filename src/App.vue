@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="navContain">
-      <b-navbar fixed="top" id="nav" style="display:flex; justify-content:flex-end; padding: 0 8vw 0 5vw;" >
+      <b-navbar fixed="top" id="nav" >
 
             <div>
               <img id="BHacks" src ="./assets/Logos/BHacks_HorzWhte.svg"/>
@@ -29,9 +29,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,700|Roboto:300,400,700');
 
 body{
-  padding-top: 9vw;
   width: 100%;
-  height: 175vh;
+  height: 100%;
   background-color:#a73d59;
 
   background-image: linear-gradient(
@@ -65,9 +64,9 @@ body{
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #ffffff;
   font-size: 1.25vw;
+  padding-top: 9vw;
 
 }
 
@@ -75,6 +74,9 @@ body{
   background-color: #6b6691;
   width: 100%;
   height: 5vw;
+
+  display: flex;
+  justify-content:flex-end;
 
   a {
     font-weight: 400;
