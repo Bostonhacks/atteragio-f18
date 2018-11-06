@@ -230,7 +230,7 @@ export default {
 import Live from "../components/Live.vue"
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 
 .Flair {
   display: flex;
