@@ -188,22 +188,23 @@
         <p id="bolder">Thank you to our sponsors!</p>
     </b-container>
 
-    <b-container fluid>
-      <b-row style="padding: 3vw 5vw 0 5vw;">
-        <b-col><img class="logo" src="../assets/Logos/Bose/BoseLogo.png"/></b-col>
+    <b-container fluid >
+      <b-row class="logos" style="padding: 3vw 5vw 0 5vw;">
+        <b-col><img class="logoThin" src="../assets/Logos/Bose/BoseLogo.png"/></b-col>
         <b-col><img class="logo" src="../assets/Logos/BUCS/BucsLogo.jpg"/></b-col>
         <b-col><img class="logo" src="../assets/Logos/Giphy/giphyEngineeringLogo.jpg"/></b-col>
-        <b-col><img class="logo" src="../assets/Logos/Github/githubLogo.png"/></b-col>
-        <b-col><img class="logo" src="../assets/Logos/Google/googleLogo.png"/></b-col>
-        <b-col><img class="logo" src="../assets/Logos/ITG/itgWhiteLogo.png"/></b-col>
+        <b-col><img class="logoTall" src="../assets/Logos/Github/githubLogo.png"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/IBM/ibmLogo.png"/></b-col>
+        <b-col><img class="logoTall" src="../assets/Logos/ITG/itgWhiteLogo.png"/></b-col>
       </b-row>
 
-      <b-row style="padding: 4vw 5vw 4vw 5vw;">
-        <b-col><img style="height: 7vw;" src="../assets/Logos/Liberty/libertyLogo.png"/></b-col>
-        <b-col><img src="../assets/Logos/MassRobotics/massRoboLogo.png" style="height: 3vw;"/></b-col>
+      <b-row class="logos" style="padding: 4vw 5vw 4vw 5vw;">
+        <b-col><img class="logoThin" src="../assets/Logos/Liberty/libertyLogo.png"/></b-col>
+        <b-col><img class="logoThin" src="../assets/Logos/MassRobotics/massRoboLogo.png"/></b-col>
         <b-col><img class="logo" src="../assets/Logos/OneDB/onedbLogo.svg"/></b-col>
-        <b-col><img class="logo" src="../assets/Logos/Raytheon/raytheonLogo.png"/></b-col>
+        <b-col><img class="logoThin" src="../assets/Logos/Raytheon/raytheonLogo.png"/></b-col>
         <b-col><img class="logo" src="../assets/Logos/RedHat/redhatLogo.png"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/Google/googleLogo.png"/></b-col>
         <b-col></b-col>
       </b-row>
 
@@ -388,8 +389,25 @@ margin-right: auto;
 }
 
 .logo {
-  height: 5vw;
+  width: 9vw;
+  height: auto;
 }
+
+.logoTall {
+  height: 5vw;
+  width:auto;
+}
+
+.logoThin {
+  width: 12vw;
+  height: auto;
+}
+
+.logos {
+  align-items:center;
+
+}
+
 
 
 </style>
