@@ -1,16 +1,7 @@
 <template>
   <div class="Scheduler">
-<<<<<<< HEAD
-=======
-    <b-container fluid>
-      <b-row align-h="end">
-        <div style="margin-top: -1.5vw; margin-right: 10vw;">
-          <div id="redot" style="margin-right: 1vh"></div><span style="font-size: 1.6vw; font-weight: 400;">Live</span>
-        </div>
-      </b-row>
-    </b-container>
->>>>>>> 0911767599268217d6d32c0f7452282d2917bd3f
-    <div class="schedule-block">
+    <Live />
+    <div class="schedule-block" style="margin-top:5%;">
       <div class="select-date">
         <div v-on:click="changeDate" class="date-tag" v-bind:class="[sat_day ? 'active-tag' : 'inactive-tag']">
           <span> Saturday </span>
@@ -150,11 +141,13 @@
 
 <script>
   import Schedule from "./Schedule.vue"
+  import Live from "../components/Live.vue"
 
   export default {
     name: "SchedulePage",
     components: {
-      Schedule
+      Schedule,
+      Live
     },
     data() {
       return {

@@ -1,11 +1,7 @@
 <template>
   <div class="FAQ">
+    <Live />
     <b-container fluid>
-      <b-row align-h="end">
-        <div style="margin-top: -1.5vw; margin-right: 10vw;">
-          <div id="redot" style="margin-right: 1vh"></div><span style="font-size: 1.6vw; font-weight: 400;">Live</span>
-        </div>
-      </b-row>
       <b-row id="title">
         <b-col cols=1 />
         <b-col id="header">
@@ -295,11 +291,11 @@
 </style>
 
 <script>
-  import Flair from "../components/Flair.vue"
   export default {
     name: "Faq",
-    Components: {
-      Flair
+    components: {
+      Live
     }
   };
+  import Live from "../components/Live.vue"
 </script>

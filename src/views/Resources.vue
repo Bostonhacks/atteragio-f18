@@ -1,11 +1,7 @@
 <template>
   <div class="resources">
+    <Live />
     <b-container fluid>
-      <b-row align-h="end">
-        <div style="margin-top: -1.5vw; margin-right: 10vw;">
-          <div id="redot" style="margin-right: 1vh"></div><span style="font-size: 1.6vw; font-weight: 400;">Live</span>
-        </div>
-      </b-row>
       <b-row id="title">
         <b-col cols=1 />
         <b-col id="header">
@@ -353,6 +349,14 @@
   max-width: 12%;
   margin-left: 97%;
 }
-
-
 </style>
+
+<script>
+  export default {
+    name: "Resources",
+    components: {
+      Live
+    }
+  };
+  import Live from "../components/Live.vue"
+</script>

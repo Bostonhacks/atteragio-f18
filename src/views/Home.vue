@@ -1,12 +1,5 @@
 <template>
   <div>
-    <!-- <b-container fluid>
-      <b-row align-h="end">
-        <div style="margin-top: -1.5vw; margin-right: 10vw;">
-          <div id="redot" style="margin-right: 1vh"></div><span style="font-size: 1.6vw; font-weight: 400;">Live</span>
-        </div>
-      </b-row>
-    </b-container> -->
 
     <Live/>
     <b-container fluid>
