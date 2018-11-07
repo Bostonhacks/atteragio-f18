@@ -1,13 +1,7 @@
 <template>
   <div class="Scheduler">
-    <b-container fluid>
-      <b-row align-h="end">
-        <div style="margin-top: -1.5vw; margin-right: 10vw;">
-          <div id="redot" style="margin-right: 1vh"></div><span style="font-size: 1.6vw; font-weight: 400;">Live</span>
-        </div>
-      </b-row>
-    </b-container>
-    <div class="schedule-block">
+    <Live />
+    <div class="schedule-block" style="margin-top:5%;">
       <div class="select-date">
         <div v-on:click="changeSat" class="date-tag" v-bind:class="[sat_day ? 'active-tag' : 'inactive-tag']">
           <span> Saturday </span>
@@ -19,16 +13,23 @@
       <Schedule v-if="sat_day" :events="sat_events" :timelines="timelines" />
       <Schedule v-else :events="sun_events" :timelines="timelines" />
     </div>
+    <b-container fluid>
+      <Flair />
+    </b-container>
   </div>
 </template>
 
 <script>
-import Schedule from "./Schedule.vue"
+  import Schedule from "./Schedule.vue"
+  import Live from "../components/Live.vue"
+  import Flair from "../components/Flair.vue"
 
 export default {
   name: "SchedulePage",
   components: {
-    Schedule
+    Schedule,
+    Live,
+    Flair
   },
   data() {
     return {

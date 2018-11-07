@@ -1,11 +1,7 @@
 <template>
   <div class="resources">
-    <b-container>
-      <b-row align-h="end">
-        <div style="margin-top: -1.5vw; margin-right: 10vw;">
-          <div id="redot" style="margin-right: 1vh"></div><span style="font-size: 1.6vw; font-weight: 400;">Live</span>
-        </div>
-      </b-row>
+    <Live />
+    <b-container fluid>
       <b-row id="title">
         <b-col cols=1 />
         <b-col id="header">
@@ -25,12 +21,14 @@
             content API Resources contsists of, and it’s not included in the
             content doc. If there needs to be any body content it will go in this text box.
           </b-col>
+          <b-col cols=2 />
         </b-row>
         <b-row class="info">
           <b-col cols=1 />
           <b-col>
             Links and Resources go here
           </b-col>
+          <b-col cols=2 />
         </b-row>
       </b-row>
         <b-row class="sectionHeader">
@@ -38,12 +36,14 @@
           <b-col>
             Track Specific Resources
           </b-col>
+          <b-col cols=2 />
         </b-row>
         <b-row class="subtext">
           <b-col cols=1 />
           <b-col>
             Web and Mobile Development:
           </b-col>
+          <b-col cols=2 />
         </b-row>
         <b-row class="info">
           <b-col cols=1 />
@@ -53,12 +53,14 @@
             React Native with Redux: https://www.packtpub.com/books/content/how-get-started-redux-react-native <br />
             React Native with Firebase: https://firebase.googleblog.com/2016/01/the-beginners-guide-to-react-native-and_84.html
           </b-col>
+          <b-col cols=2 />
         </b-row>
         <b-row class="subtext">
           <b-col cols=1 />
           <b-col>
             Machine Learning
           </b-col>
+          <b-col cols=2 />
         </b-row>
         <b-row class="info">
           <b-col cols=1 />
@@ -67,12 +69,14 @@
             Keras: https://keras.io <br />
             Pytorch: http://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html <br />
           </b-col>
+          <b-col cols=2 />
         </b-row>
         <b-row class="subtext">
           <b-col cols=1 />
           <b-col>
             Virtual and Augmented Reality
           </b-col>
+          <b-col cols=2 />
         </b-row>
         <b-row class="info">
           <b-col cols=1 />
@@ -83,7 +87,10 @@
             Unity and Android: https://docs.unity3d.com/Manual/android-GettingStarted.html <br/>
             Unity and OpenVR (Vive and Oculus Rift): https://www.assetstore.unity3d.com/en/#!/content/32647 <br/>
           </b-col>
+          <b-col cols=2 />
         </b-row>
+
+        <Flair />
     </b-container>
   </div>
 </template>
@@ -129,6 +136,17 @@
   font-weight: 300;
   font-size: 1.1vw;
 }
-
-
 </style>
+
+<script>
+  export default {
+    name: "Resources",
+    components: {
+      Live,
+      Flair
+    }
+  };
+  import Live from "../components/Live.vue"
+  import Flair from "../components/Flair.vue"
+
+</script>

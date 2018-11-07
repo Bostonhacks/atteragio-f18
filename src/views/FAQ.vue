@@ -1,32 +1,28 @@
 <template>
   <div class="FAQ">
+    <Live />
     <b-container fluid>
-      <b-row align-h="end">
-        <div style="margin-top: -1.5vw; margin-right: 10vw;">
-          <div id="redot" style="margin-right: 1vh"></div><span style="font-size: 1.6vw; font-weight: 400;">Live</span>
-        </div>
-      </b-row>
       <b-row id="title">
         <b-col cols=1 />
-        <b-col id="header">
+        <b-col id="header" sm="10" md="10">
           <p> Frequently Asked Questions </p>
         </b-col>
       </b-row>
       <b-row id="infoRow">
         <b-col cols=1 />
-        <b-col>
+        <b-col sm="10" md="3">
           <p class="infoTitle"> Are there any rules? </p>
           <p class="info"> We want to ensure a positive experience for every
             participant. We encourage you to read out <b>code of conduct</b>.
           </p>
         </b-col>
-        <b-col>
+        <b-col sm="10" md="3">
           <p class="infoTitle"> Can we form teams? </p>
           <p class="info">Of course you can! We encourage people to work in teams
             of up to 5 people. You can work alone, but it won't be the same.
           </p>
         </b-col>
-        <b-col>
+        <b-col sm="10" md="3">
           <p class="infoTitle">How/When do I need to submit my project?</p>
           <p class="info"> All projects will need to be submitted on Devpost by 10AM on Sunday,
             altough you can continue to work on your demmonstration after you submit.
@@ -34,25 +30,28 @@
         </b-col>
         <b-col cols=1 />
       </b-row>
+
+      <Flair />
     </b-container>
   </div>
 </template>
 
 <style scoped>
 .FAQ {
-  height: 92vh;
+  /* height: 92vh; */
 }
 
 .info{
   font-weight: 300;
-  font-size: 1.1vw;
+  font-size: 1rem;
+  margin-bottom: 30px;
 }
 .infoTitle {
-
+  margin-bottom: 20px;
 }
 #header {
   font-weight: 300;
-  font-size: 2vw;
+  font-size: 3rem;
 }
 
 #title{
@@ -75,14 +74,18 @@
   height: 0.75vw;
   width: 0.75vw;
   display: inline-block;
-
 }
+
 </style>
 
 <script>
   export default {
     name: "Faq",
-    Components: {
+    components: {
+      Live,
+      Flair
     }
   };
+  import Live from "../components/Live.vue"
+  import Flair from "../components/Flair.vue"
 </script>

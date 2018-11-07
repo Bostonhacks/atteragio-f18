@@ -2,7 +2,7 @@
   <div class="map-floor">
     <b-container>
       <b-row>
-        <b-col cols="7">
+        <b-col lg="7" md="12">
           <b-row class="title">
             <span> George Sherman Union: {{floor_name}} </span>
           </b-row>
@@ -13,7 +13,7 @@
             </div>
           </b-row>
           <b-row class="items">
-            <b-col cols="5">
+            <b-col lg="5" md="12">
               <MapItem
                 v-for="item in itemList"
                 v-bind:key="item.id"

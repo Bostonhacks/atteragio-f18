@@ -1,11 +1,7 @@
 <template>
   <div class="Prizes">
+    <Live />
     <b-container fluid>
-      <b-row align-h="end">
-        <div style="margin-top: -1.5vw; margin-right: 10vw;">
-          <div id="redot" style="margin-right: 1vh"></div><span style="font-size: 1.6vw; font-weight: 400;">Live</span>
-        </div>
-      </b-row>
       <b-row id="title">
         <b-col cols=1 />
         <b-col id="header">
@@ -34,13 +30,14 @@
         </b-col>
         <b-col cols=1 />
       </b-row>
+
+      <Flair />
     </b-container>
   </div>
 </template>
 
 <style scoped>
 .Prizes {
-  height: 81.3vh;
 }
 
 .category {
@@ -84,12 +81,18 @@
   display: inline-block;
 
 }
+
 </style>
 
 <script>
   export default {
     name: "Faq",
-    Components: {
+    components: {
+      Live,
+      Flair
     }
   };
+
+  import Live from "../components/Live.vue"
+  import Flair from "../components/Flair.vue"
 </script>

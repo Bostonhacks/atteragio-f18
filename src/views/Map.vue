@@ -138,6 +138,7 @@
   background-color: #928aa6;
   height: 80px;
   padding-left: 20px;
+  
 }
 
 .floor-tag {

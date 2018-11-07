@@ -1,9 +1,11 @@
 <template>
+
   <div>
+
     <Live/>
     <b-container fluid>
         <b-row class="homeHead">
-            <b-col>
+            <b-col class="mobileHide">
               <b-row>
                 <b-col>
                   <img
@@ -65,11 +67,11 @@
               </b-row>
             </b-col>
 
-            <b-col cols="5" id="heroText">
+            <b-col id="heroText" style="max-width: 100% !important;">
               <div >
                 <p class="heroText"> Boston<span id="bolder">Hacks</span> 2018 </p>
                 <img
-                  class="Flair"
+                  class="Flair mobileHide"
                   id="BlueCircle"
                   src="../assets/Shapes/Circle/BlueThickCircle.svg"
                 />
@@ -78,7 +80,7 @@
               </div>
             </b-col>
 
-            <b-col>
+            <b-col class="mobileHide">
               <b-row>
                 <b-col>
                   <img
@@ -143,9 +145,9 @@
         </b-row>
     </b-container>
 
-    <b-container id="links" >
-      <b-row id="links" class="links">
-        <b-col cols="auto" md="4">
+    <b-container id="links" class="container-fluid">
+      <b-row id="links" class="links container-fluid">
+        <b-col sm="12" md="4">
           <div>
             <img class="icon" src="../assets/Icons/wifi.svg"/>
           </div>
@@ -157,7 +159,7 @@
           </div>
         </b-col>
 
-        <b-col cols="auto" md="4">
+        <b-col sm="12" md="4">
           <div>
             <img class="icon" src="../assets/Icons/slack.svg"/>
           </div>
@@ -168,7 +170,7 @@
           </div>
         </b-col>
 
-        <b-col cols="auto" md="4">
+        <b-col sm="12" md="4">
           <div>
             <img class="icon" src="../assets/Icons/link.svg"/>
           </div>
@@ -187,22 +189,23 @@
         <p id="bolder">Thank you to our sponsors!</p>
     </b-container>
 
-    <b-container>
-      <b-row>
-        <b-col></b-col>
-        <b-col></b-col>
-        <b-col></b-col>
-        <b-col></b-col>
-        <b-col></b-col>
-        <b-col></b-col>
+    <b-container fluid >
+      <b-row class="logos" style="padding: 3vw 5vw 0 5vw;">
+        <b-col><img class="logoThin" src="../assets/Logos/Bose/BoseLogo.png"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/BUCS/BucsLogo.jpg"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/Giphy/giphyEngineeringLogo.jpg"/></b-col>
+        <b-col><img class="logoTall" src="../assets/Logos/Github/githubLogo.png"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/IBM/ibmLogo.png"/></b-col>
+        <b-col><img class="logoTall" src="../assets/Logos/ITG/itgWhiteLogo.png"/></b-col>
       </b-row>
 
-      <b-row>
-        <b-col></b-col>
-        <b-col></b-col>
-        <b-col></b-col>
-        <b-col></b-col>
-        <b-col></b-col>
+      <b-row class="logos" style="padding: 4vw 5vw 4vw 5vw;">
+        <b-col><img class="logoThin" src="../assets/Logos/Liberty/libertyLogo.png"/></b-col>
+        <b-col><img class="logoThin" src="../assets/Logos/MassRobotics/massRoboLogo.png"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/OneDB/onedbLogo.svg"/></b-col>
+        <b-col><img class="logoThin" src="../assets/Logos/Raytheon/raytheonLogo.png"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/RedHat/redhatLogo.png"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/Google/googleLogo.png"/></b-col>
         <b-col></b-col>
       </b-row>
 
@@ -222,7 +225,7 @@ export default {
 import Live from "../components/Live.vue"
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 
 .Flair {
   display: flex;
@@ -314,15 +317,16 @@ import Live from "../components/Live.vue"
   color: white;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 300;
-  font-size: 3.7vw;
+  font-size: 3rem;
   text-align: center;
+  padding-bottom: 40px;
 }
 
 .date{
   margin-top: -3vh;
-  line-height: 1.75vw;
   font-weight: 300;
   text-align: center;
+  max-width: 100% !important;
 }
 
 #bolder {
@@ -338,10 +342,14 @@ import Live from "../components/Live.vue"
   .homeHead {
     margin-top: -12vw;
   }
+
+  .mobileHide {
+    display: none;
+  }
 }
 
 #links {
-  padding-top: 8vw;
+  padding-top: 7vw;
   margin-left: auto;
   margin-right: auto;
 }
@@ -354,9 +362,10 @@ import Live from "../components/Live.vue"
 
 
 .icon {
-  height: 2vw;
-  width: 2vw;
+  height: 2rem;
+  width: 2rem;
   margin-bottom: 2vh;
+  margin-top: 50px;
 }
 
 .headInfo{
@@ -366,7 +375,7 @@ import Live from "../components/Live.vue"
 .info{
   margin-bottom: -0.2vw;
   font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
-  font-size: 1.1vw;
+  font-size: 1.2rem;
 }
 
 hr {
@@ -375,5 +384,37 @@ width: 40%;
 margin-left: auto;
 margin-right: auto;
 }
+
+#redot{
+  border: 1px solid #f05352;
+  border-radius: 50px;
+  background-color: #f05352;
+  height: 0.75vw;
+  width: 0.75vw;
+  display: inline-block;
+
+}
+
+.logo {
+  width: 9vw;
+  height: auto;
+}
+
+.logoTall {
+  height: 5vw;
+  width:auto;
+}
+
+.logoThin {
+  width: 12vw;
+  height: auto;
+}
+
+.logos {
+  align-items:center;
+
+}
+
+
 
 </style>
