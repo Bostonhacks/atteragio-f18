@@ -1,6 +1,6 @@
 <template>
   <li class="single-event" v-bind:data-event="type" v-bind:style="{ top: eventTop + 'px', height: eventHeight + 'px' }"> <!-- might remove some of these later -->
-    <a href="#0" v-on:click="openModal">
+    <a href="#0">
       <span class="event-date"> {{start}}-{{end}} </span>
       <span class="event-name">{{ full_name }}</span>
     </a>
@@ -60,14 +60,6 @@
         let start = getScheduleTimestamp(this.start);
         let duration = getScheduleTimestamp(this.end) - start;
         return (this.event_slot_height * duration / this.unit_duration) + 1;
-      }
-    },
-    methods: {
-      openModal: function(event) {
-        event.preventDefault();
-        if (!this.$parent.animating) {
-          this.$emit("openModal");
-        }
       }
     }
   }

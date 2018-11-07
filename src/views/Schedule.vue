@@ -27,7 +27,6 @@
                 :timeline_start="timelines[0]"
                 :event_slot_height="event_slot_height"
                 :unit_duration="unit_duration"
-                v-on:openModal="handle_open_modal('1')"
               />
             </ul>
           </li>
@@ -59,11 +58,6 @@
       return {
         event_slot_height: 50, // = height of a time slot, hard coded for now
         unit_duration: 30, // unit duration is 30 mins
-      }
-    },
-    methods: {
-      handle_open_modal: function(stuff) {
-        console.log(stuff);
       }
     }
   }
