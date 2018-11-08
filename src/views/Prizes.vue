@@ -9,8 +9,8 @@
         </b-col>
       </b-row>
       <b-row id="infoRow">
-        <b-col cols=1 />
-        <b-col>
+        <b-col md="1" />
+        <b-col sm="10" md="3">
           <p class="category"> Giving Back to Veterans </p>
           <p class="prizeItem"> Amazon Echo Sports </p>
           <p class="info"> Veterans risked their lives to let you sit in the
@@ -19,7 +19,7 @@
             day.
           </p>
         </b-col>
-        <b-col>
+        <b-col sm="10" md="3">
           <p class="category"> The Smart Home </p>
           <p class="prizeItem"> Google Home Hub and 2 Lights Starter Pack </p>
           <p class="info">Learn how to create Internet of Things devices and
@@ -28,7 +28,7 @@
             humans and technology.
           </p>
         </b-col>
-        <b-col>
+        <b-col sm="10" md="3">
           <p class="category"> Data for Urban Good </p>
           <p class="prizeItem">Surface Go Tablets, Typecovers, and Surface Pens</p>
           <p class="info"> Your hometown works every day to improve the quality
@@ -37,10 +37,10 @@
             improvements.
           </p>
         </b-col>
-        <b-col cols=1 />
+        <b-col sm="1" />
       </b-row>
       <b-row>
-        
+
       </b-row>
 
       <Flair />
@@ -52,23 +52,35 @@
 .Prizes {
 }
 
+@media (max-width: 750px) {
+  .mobileHide {
+    display: none !important;
+  }
+}
+@media (min-width: 751px) {
+  .desktopHide {
+    display: none !important;
+  }
+}
+
+
 .category {
   margin-top: 4vh;
-  font-size: 1.3vw;
+  font-size: 1rem;
 }
 
 .info{
   font-weight: 300;
-  font-size: 1.1vw;
+  font-size: 1rem;
   margin-top: -2vh;
 }
 .prizeItem {
-  font-size: 1.25vw;
+  font-size: 1.2rem;
   margin-top: 3vh;
 }
 #header {
   font-weight: 300;
-  font-size: 2vw;
+  font-size: 2rem;
 }
 
 #title{
