@@ -13,6 +13,7 @@
         <b-col>
           <Card
             v-for="card in cards"
+            :key="card.id"
             :title="card.title"
             :time = "card.time"
             :room = "card.room"
