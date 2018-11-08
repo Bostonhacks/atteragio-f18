@@ -11,24 +11,36 @@
       <b-row id="infoRow">
         <b-col cols=1 />
         <b-col>
-          <p class="category"> Track Title </p>
-          <p class="prizeItem"> Prize </p>
-          <p class="info"> Place holder text.
+          <p class="category"> Giving Back to Veterans </p>
+          <p class="prizeItem"> Amazon Echo Sports </p>
+          <p class="info"> Veterans risked their lives to let you sit in the
+            comfort of your home, or at BostonHacks, and code. It’s time to give
+            back and create solutions for problems countless veterans face every
+            day.
           </p>
         </b-col>
         <b-col>
-          <p class="category"> Track Title </p>
-          <p class="prizeItem"> Prize </p>
-          <p class="info">Place holder text.
+          <p class="category"> The Smart Home </p>
+          <p class="prizeItem"> Google Home Hub and 2 Lights Starter Pack </p>
+          <p class="info">Learn how to create Internet of Things devices and
+            robots to realize the dream of the smart home. Get your hands on
+            state-of-the-art hardware and study the intimate interaction of
+            humans and technology.
           </p>
         </b-col>
         <b-col>
-          <p class="category"> Track Title </p>
-          <p class="prizeItem">Prize</p>
-          <p class="info"> Place holder text.
+          <p class="category"> Data for Urban Good </p>
+          <p class="prizeItem">Surface Go Tablets, Typecovers, and Surface Pens</p>
+          <p class="info"> Your hometown works every day to improve the quality
+            of life for its residents. Help out your local city/town by
+            utilizing their robust datasets and collecting insights for urban
+            improvements.
           </p>
         </b-col>
         <b-col cols=1 />
+      </b-row>
+      <b-row>
+        
       </b-row>
 
       <Flair />
