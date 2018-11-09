@@ -68,4 +68,21 @@
   ol, ul {
     list-style: none;
   }
+
+  .events-group ul::-webkit-scrollbar {
+    height: 7px;
+    background-color: #ffffff;
+  }
+
+  .events-group ul::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 0.6vw rgba(0,0,0,0.3);
+    border-radius: 5px;
+    background-color: #e2dddd;
+  }
+
+  .events-group ul::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 0.6vw rgba(0,0,0,.3);
+    background-color: #928f8f;
+  }
 </style>

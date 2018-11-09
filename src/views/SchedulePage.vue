@@ -56,6 +56,18 @@ export default {
               end: "12:30",
               type: "event-1",
               full_name: "Second event"
+            },
+            {
+              start: "13:30",
+              end: "14:30",
+              type: "event-1",
+              full_name: "Second event"
+            },
+            {
+              start: "15:30",
+              end: "16:30",
+              type: "event-1",
+              full_name: "Second event"
             }
           ],
         },

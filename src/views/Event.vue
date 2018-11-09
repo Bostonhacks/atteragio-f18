@@ -80,12 +80,6 @@
     font-size: 2.2vw;
   }
 
-  @media only screen and (min-width: 800px) {
-    .event-name {
-      font-size: 1.5vw;
-    }
-  }
-
   @media only screen and (max-width: 800px) {
     .single-event {
       height: 10vw !important;
@@ -104,6 +98,17 @@
     text-decoration: none;
     display: block;
     height: 100%;
-    padding: 1em;
+    padding: 3vw;
   }
+
+  @media only screen and (min-width: 800px) {
+    .event-name {
+      font-size: 1.5vw;
+    }
+
+    a {
+      padding: 1em;
+    }
+  }
+
 </style>
