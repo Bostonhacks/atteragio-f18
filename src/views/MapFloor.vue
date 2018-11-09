@@ -102,7 +102,7 @@ export default {
 <style scoped>
 .map-floor {
   background-color: white;
-  color: black; 
+  color: black;
 }
 
 span {

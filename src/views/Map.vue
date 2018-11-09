@@ -2,6 +2,7 @@
   <div class="map">
     <div class="select-floor">
       <div v-on:click="changeFloor(0)" class="floor-tag" v-bind:class="[current_floor == 0 ? 'active-tag' : 'inactive-tag']">
+<<<<<<< HEAD
         <span class="big-scr-floor"> Basement </span>
         <span class="small-scr-floor"> 0 </span>
       </div>
@@ -16,6 +17,18 @@
       <div v-on:click="changeFloor(3)" class="floor-tag" v-bind:class="[current_floor == 3 ? 'active-tag' : 'inactive-tag']">
         <span class="big-scr-floor"> Floor 3 </span>
         <span class="small-scr-floor"> 3 </span>
+=======
+        <span> Basement </span>
+      </div>
+      <div v-on:click="changeFloor(1)" class="floor-tag" v-bind:class="[current_floor == 1 ? 'active-tag' : 'inactive-tag']">
+        <span> Floor 1 </span>
+      </div>
+      <div v-on:click="changeFloor(2)" class="floor-tag" v-bind:class="[current_floor == 2 ? 'active-tag' : 'inactive-tag']">
+        <span> Floor 2 </span>
+      </div>
+      <div v-on:click="changeFloor(3)" class="floor-tag" v-bind:class="[current_floor == 3 ? 'active-tag' : 'inactive-tag']">
+        <span> Floor 3 </span>
+>>>>>>> 843953183682a52c3a0755b2ba327a427e445330
       </div>
     </div>
     <div class="map-body">
@@ -161,6 +174,7 @@
   background-color: #928aa6;
   height: 6vw;
   padding-left: 2vw;
+
   
 }
 
@@ -200,6 +214,5 @@
   padding: 3vw 4vw  ;
   border-top: 1px solid #b8b8b8;
 }
-
 
 </style>

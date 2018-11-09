@@ -168,17 +168,18 @@ export default {
 .select-date {
   position: relative;
   background-color: #928aa6;
-  height: 80px;
-  padding-left: 20px;
+  height: 8vw;
+  padding-left: 2vw;
 }
 
 .date-tag {
   position: relative;
-  top: calc(100% - 60px);
-  margin-left: 10px;
-  width: 200px;
-  height: 60px;
+  top: calc(100% - 4.5vw);
+  margin-left: 0.8vw;
+  width: 14vw;
+  height: 4.5vw;
   display: inline-block;
+  font-size: 1.3vw;
 }
 
 .date-tag:hover {

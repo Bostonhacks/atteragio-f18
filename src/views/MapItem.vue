@@ -51,7 +51,6 @@ span {
   width: 2.3vw;
   height: 2.3vw;
   font-size: 1.3vw;
-
   
   /* make it round */
   border-radius: 50%;
