@@ -114,7 +114,7 @@ export default {
             {
               location: "GSU 310",
               start: "21:30",
-              end: "22:00",
+              end: "22:30",
               type: "event-1",
               full_name: "Skyrim Modding from a Skyrim Modder"
             }
@@ -146,7 +146,7 @@ export default {
               full_name: "Submissions due (10AM)"
             },
             {
-              location: "BU Academy Room",  
+              location: "BU Academy Room",
               start: "11:00",
               end: "12:00",
               type: "event-2",
