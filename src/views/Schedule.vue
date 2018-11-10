@@ -85,4 +85,28 @@
     -webkit-box-shadow: inset 0 0 0.6vw rgba(0,0,0,.3);
     background-color: #928f8f;
   }
+
+  @media only screen and (max-width: 800px) {
+    .schedule {
+      height: initial !important;
+      padding-bottom: 2vw;
+    }
+
+    .events ul {
+      padding-left: 2vw;
+      padding-right: 3vw;
+    }
+
+    .top-info span {
+      font-size: 2.4vw;
+    }
+
+    .cd-schedule {
+      margin: 2vw 0;
+    }
+
+    .cd-schedule .events .events-group {
+      margin-bottom: 3vw;
+    }
+  }
 </style>

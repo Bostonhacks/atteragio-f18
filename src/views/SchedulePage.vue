@@ -191,7 +191,7 @@ export default {
   width: 14vw;
   height: 4.5vw;
   display: inline-block;
-  font-size: 1.3vw;
+  font-size: 1.4vw;
 }
 
 .date-tag:hover {

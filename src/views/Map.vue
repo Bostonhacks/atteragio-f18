@@ -159,10 +159,8 @@
 .select-floor {
   position: relative;
   background-color: #928aa6;
-  height: 6vw;
-  padding-left: 2vw;
-
-  
+  height: 8vw;
+  padding-left: 2vw;  
 }
 
 .floor-tag {
