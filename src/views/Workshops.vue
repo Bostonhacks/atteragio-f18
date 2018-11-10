@@ -53,14 +53,59 @@ export default {
     return {
       cards: [
         {
-          title: "Intro to Web dev",
-          time: "2:00 - 3:00",
-          room: "Room 320",
+          title: "Native Smart-Contracts on Bitcoi",
+          time: "TBA",
+          room: "TBA",
         },
         {
-          title: "Unit 3D",
-          time: "2:00 - 3:00",
-          room: "Room 228"
+          title: "Intro to HTTP and WebSocket APIs with Bose SoundTouch speakers",
+          time: "TBA",
+          room: "TBA"
+        },
+        {
+          title: "IBM Cloud Function as the backend for your hackathon app",
+          time: "TBA",
+          room: "TBA"
+        },
+        {
+          title: "Intro to FinTec",
+          time: "TBA",
+          room: "TBA"
+        },
+        {
+          title: "Intro to Git",
+          time: "TBA",
+          room: "TBA"
+        },
+        {
+          title: "Intro to the UR Robot Arm",
+          time: "TBA",
+          room: "TBA"
+        },
+        {
+          title: "Undecided BU AR/VR",
+          time: "TBA",
+          room: "TBA"
+        },
+        {
+          title: "Intro to Backend Development with Node.js and Express",
+          time: "TBA",
+          room: "TBA"
+        },
+        {
+          title: "Intro to Programming for the Robot Operating System (ROS)",
+          time: "TBA",
+          room: "TBA"
+        },
+        {
+          title: "Intro to Web Development with React",
+          time: "TBA",
+          room: "TBA"
+        },
+        {
+          title: "Intro to Google Cloud Platform",
+          time: "TBA",
+          room: "TBA"
         }
       ],
     }
