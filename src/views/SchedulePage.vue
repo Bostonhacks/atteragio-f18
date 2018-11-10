@@ -53,37 +53,11 @@ export default {
               full_name: "Check-in"
             },
             {
-<<<<<<< HEAD
               start: "11:00",
               end: "12:00",
               type: "event-2",
               full_name: "Opening Ceremony"
             },
-=======
-              start: "11:30",
-              end: "12:30",
-              type: "event-1",
-              full_name: "Second event"
-            },
-            {
-              start: "13:30",
-              end: "14:30",
-              type: "event-1",
-              full_name: "Second event"
-            },
-            {
-              start: "15:30",
-              end: "16:30",
-              type: "event-1",
-              full_name: "Second event"
-            }
-          ],
-        },
-        {
-          name: "Category 2",
-          event_list:
-          [
->>>>>>> b456503def643478ee66f818df306065214623e2
             {
               start: "12:30",
               end: "13:00",
