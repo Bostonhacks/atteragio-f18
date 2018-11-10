@@ -65,7 +65,6 @@ export default {
               full_name: "Opening Ceremony"
             },
             {
-<<<<<<< HEAD
               locattion: "Room 310",
               start: "14:00",
               end: "15:00",
@@ -73,8 +72,6 @@ export default {
               full_name: "Women in Tech Meetup"
             },
             {
-=======
->>>>>>> 39519e6ab190034c52f361aca52e98f6735bf1ff
               location: "BU Academy Room",
               start: "12:30",
               end: "13:00",
