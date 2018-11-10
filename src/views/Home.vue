@@ -155,7 +155,7 @@
           <div>
             <p class="headInfo"><span id="bolder">Wifi</span></p>
             <p class="info"><span id="bolder">Network:</span> BU Event Guest</p>
-            <p class="info"><span id="bolder">Password:</span> w!flP/ss%#rd</p>
+            <p class="info"><span id="bolder">Password:</span> Hackaway18</p>
           </div>
         </b-col>
 
@@ -165,8 +165,9 @@
           </div>
           <div>
             <p class="headInfo"><span id="bolder">Slack</span></p>
-            <p class="info">Click here to join our Slack channel!</p>
-            <p class="info">(link here)</p>
+            <p class="info">
+              <a href=""> Click here  </a>
+              to join our Slack channel!</p>
           </div>
         </b-col>
 
@@ -177,8 +178,10 @@
 
           <div>
             <p class="headInfo"><span id="bolder">Devpost</span></p>
-            <p class="info">Click here for project submission</p>
-            <p class="info">and prize info (link here)</p>
+            <p class="info">
+              <a href="https://bostonhacks-f2018.devpost.com/"> Click here  </a>
+                for project submission</p>
+            <p class="info">and prize info</p>
           </div>
         </b-col>
       </b-row>
@@ -226,6 +229,11 @@ import Live from "../components/Live.vue"
 </script>
 
 <style scoped lang="scss">
+a {
+  color: #ffffff;
+  font-weight: 700;
+}
+
 
 .Flair {
   display: flex;

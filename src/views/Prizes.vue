@@ -95,6 +95,10 @@
   }
 }
 
+a {
+  color: #ffffff;
+  font-weight: 700;
+}
 
 .category {
   margin-top: 4vh;
@@ -113,7 +117,7 @@
 }
 #header {
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 #title{
