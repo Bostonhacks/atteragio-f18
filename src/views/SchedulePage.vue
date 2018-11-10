@@ -53,11 +53,37 @@ export default {
               full_name: "Check-in"
             },
             {
+<<<<<<< HEAD
               start: "11:00",
               end: "12:00",
               type: "event-2",
               full_name: "Opening Ceremony"
             },
+=======
+              start: "11:30",
+              end: "12:30",
+              type: "event-1",
+              full_name: "Second event"
+            },
+            {
+              start: "13:30",
+              end: "14:30",
+              type: "event-1",
+              full_name: "Second event"
+            },
+            {
+              start: "15:30",
+              end: "16:30",
+              type: "event-1",
+              full_name: "Second event"
+            }
+          ],
+        },
+        {
+          name: "Category 2",
+          event_list:
+          [
+>>>>>>> b456503def643478ee66f818df306065214623e2
             {
               start: "12:30",
               end: "13:00",
@@ -217,17 +243,18 @@ export default {
 .select-date {
   position: relative;
   background-color: #928aa6;
-  height: 80px;
-  padding-left: 20px;
+  height: 8vw;
+  padding-left: 2vw;
 }
 
 .date-tag {
   position: relative;
-  top: calc(100% - 60px);
-  margin-left: 10px;
-  width: 200px;
-  height: 60px;
+  top: calc(100% - 4.5vw);
+  margin-left: 0.8vw;
+  width: 14vw;
+  height: 4.5vw;
   display: inline-block;
+  font-size: 1.4vw;
 }
 
 .date-tag:hover {
