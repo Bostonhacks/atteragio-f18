@@ -53,59 +53,64 @@ export default {
     return {
       cards: [
         {
-          title: "Native Smart-Contracts on Bitcoi",
-          time: "TBA",
-          room: "TBA",
+          title: "Native Smart-Contracts on Bitcoin by Stratis",
+          time: "2:00pm - 3:00pm",
+          room: "Conference Auditorium",
         },
         {
-          title: "Intro to HTTP and WebSocket APIs with Bose SoundTouch speakers",
-          time: "TBA",
-          room: "TBA"
+          title: "Intro to Programming for the Robot Operating System (ROS) by Lucas Watson (Software Intern at Piaggio Fast Forward)",
+          time: "2:00pm - 3:00pm",
+          room: "Terrace Lounge"
+        },
+        {
+          title: "Intro to HTTP and WebSocket APIs with Bose SoundTouch speakers by Bose",
+          time: "3:00pm - 4:00pm",
+          room: "Conference Auditorium"
+        },
+        {
+          title: "Intro to the UR Robot Arm by Mass Robotics and Universal Robot",
+          time: "3:00pm - 4:00pm",
+          room: "Terrace Lounge"
+        },
+        {
+          title: "Intro to Web Development with React by Christopher Trinh (BU student developer)",
+          time: "3:00pm - 4:00pm",
+          room: "Room 312"
+        },
+        {
+          title: "Intro to FinTec by ITG",
+          time: "4:00pm - 5:00pm",
+          room: "Conference Auditorium"
+        },
+        {
+          title: "Intro to Backend Development with Node.js and Express by Open Web",
+          time: "4:00pm - 5:00pm",
+          room: "Terrace Lounge"
+        },
+        {
+          title: "Code with a Conscience Presented By Hack4Impact",
+          time: "4:00pm - 5:00pm",
+          room: "Room 312"
         },
         {
           title: "IBM Cloud Function as the backend for your hackathon app",
-          time: "TBA",
-          room: "TBA"
+          time: "5:00pm - 6:00pm",
+          room: "Conference Auditorium"
         },
         {
-          title: "Intro to FinTec",
-          time: "TBA",
-          room: "TBA"
+          title: "Simmetri Workshops by BU AR/VR",
+          time: "5:00pm - 6:00pm",
+          room: "Terrace Lounge"
         },
         {
-          title: "Intro to Git",
-          time: "TBA",
-          room: "TBA"
+          title: "Intro to Google Cloud Platform by Julia Bighetto (GCP Student Ambassador)",
+          time: "5:00pm - 6:00pm",
+          room: "Room 312"
         },
         {
-          title: "Intro to the UR Robot Arm",
-          time: "TBA",
-          room: "TBA"
-        },
-        {
-          title: "Undecided BU AR/VR",
-          time: "TBA",
-          room: "TBA"
-        },
-        {
-          title: "Intro to Backend Development with Node.js and Express",
-          time: "TBA",
-          room: "TBA"
-        },
-        {
-          title: "Intro to Programming for the Robot Operating System (ROS)",
-          time: "TBA",
-          room: "TBA"
-        },
-        {
-          title: "Intro to Web Development with React",
-          time: "TBA",
-          room: "TBA"
-        },
-        {
-          title: "Intro to Google Cloud Platform",
-          time: "TBA",
-          room: "TBA"
+          title: "Intro to Git by Rudhra Raveendran (Github Student Ambassador)",
+          time: "6:00pm - 7:00pm",
+          room: "Terrace Lounge"
         }
       ],
     }
