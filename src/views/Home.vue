@@ -209,7 +209,15 @@
         <b-col><img class="logoThin" src="../assets/Logos/Raytheon/raytheonLogo.png"/></b-col>
         <b-col><img class="logo" src="../assets/Logos/RedHat/redhatLogo.png"/></b-col>
         <b-col><img class="logo" src="../assets/Logos/Google/googleLogo.png"/></b-col>
-        <b-col></b-col>
+      </b-row>
+
+      <b-row class="logos" style="padding: 4vw 5vw 4vw 5vw;">
+        <b-col><img class="logo" src="../assets/Logos/Spark/SparkLogo.png"/></b-col>
+        <b-col><img class="logoThin" src="../assets/Logos/Stratis/StratisLogo.png"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/Twilio/twilioBW.png"/></b-col>
+        <b-col><img class="logoThin" src="../assets/Logos/UniRobot/uniRobotsLogo.png"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/Unity/unityWhiteLogo.png"/></b-col>
+        <!-- <b-col></b-col> -->
       </b-row>
 
     </b-container>
