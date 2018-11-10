@@ -72,6 +72,7 @@ export default {
               full_name: "Team formation"
             },
             {
+<<<<<<< HEAD
               location: "Conference Auditorium",
               start: "13:00",
               end: "14:00",
@@ -79,6 +80,8 @@ export default {
               full_name: "Stakeholder Talks"
             },
             {
+=======
+>>>>>>> b10a082bf2c828c0d013daab4a0a9919ca981df3
               locattion: "Room 310",
               start: "14:00",
               end: "15:00",
