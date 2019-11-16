@@ -107,7 +107,7 @@ export default {
         },
         {
           title: "BU AR/VR: Intro to VR Development Using Unity",
-          time: "4:30pm - 5:30pm",
+          time: "5:30pm - 6:30pm",
           room: "Room 312"
         },
         {
