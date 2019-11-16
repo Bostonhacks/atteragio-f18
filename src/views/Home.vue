@@ -147,7 +147,7 @@
 
     <b-container id="links" class="container-fluid">
       <b-row id="links" class="links container-fluid">
-        <b-col sm="12" md="3">
+        <b-col sm="12" md="4">
           <div>
             <!-- <img class="icon" src="../assets/Icons/wifi.svg"/> -->
           </div>
@@ -159,7 +159,7 @@
           </div>
         </b-col>
 
-        <b-col sm="12" md="3">
+        <b-col sm="12" md="4">
           <div>
             <!-- <img class="icon" src="../assets/Icons/slack.svg"/> -->
           </div>
@@ -171,29 +171,17 @@
           </div>
         </b-col>
 
-        <b-col sm="12" md="3">
+        <b-col sm="12" md="4">
           <div>
             <!-- <img class="icon" src="../assets/Icons/link.svg"/> -->
           </div>
 
           <div>
             <p class="headInfo"><span id="bolder">Devpost</span></p>
-            <p class="info">Click <a href="https://bostonhacks-2019.devpost.com/">here</a> to submit your project!</p>
+            <p class="info"><a href="https://bostonhacks-2019.devpost.com/">Click here</a> to submit your project!</p>
           </div>
         </b-col>
 
-        <b-col sm="12" md="3">
-          <div>
-            <!-- <img class="icon" src="../assets/Icons/wifi.svg"/> -->
-          </div>
-          <div>
-              <p class="headInfo"><span id="bolder">HelpQ</span></p>
-              <p class="info"> <a href="https://helpq.bostonhacks.io"> Click here </a>
-                to get help
-              </p>
-          </div>
-        </b-col>
-        
       </b-row>
     </b-container>
 
@@ -217,9 +205,9 @@
         <b-col><img class="logo" src="../assets/Logos/Twilio/twilio-logo-red.svg"/></b-col>
         <b-col><img class="logoThin" src="../assets/Logos/StickerMule/stickerMule.svg"/></b-col>
         <b-col><img class="logo" src="../assets/Logos/Kind/kind.svg"/></b-col>
-        
-        
-        
+
+
+
       </b-row>
 
      <!-- <b-row class="logos" style="padding: 4vw 5vw 4vw 5vw;">
