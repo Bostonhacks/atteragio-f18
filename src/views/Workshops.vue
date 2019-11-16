@@ -111,14 +111,14 @@ export default {
           room: "Room 312"
         },
         {
-          title: "Bose",
+          title: "Bose: Streaming Speaker APIs and Wearing AR (Speaker) APIs",
           time: "5:30pm - 6:30pm",
           room: "Room 310"
         },
         {
           title: "BUILDS: p5.js and Graphics on the Web",
-          time: "7:30pm - 8:30pm",
-          room: "Room 310"
+          time: "5:30pm - 6:30pm",
+          room: "Room 322"
         },
         {
           title: "0xBU: Decompiling Programs with Ghidra",
