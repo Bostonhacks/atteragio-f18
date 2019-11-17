@@ -168,30 +168,30 @@ export default {
               full_name: "Team formation"
             },
             {
-              location: "Metcalf Ballroom",
+              location: "Ziskind Lounge",
               start: "20:30",
               end: "21:00",
-              type: "event-1",
-              full_name: "Piñata"
-            },
-            {
-              location: "Ziskind Lounge",
-              start: "21:00",
-              end: "21:30",
               type: "event-1",
               full_name: "Cupcakes!"
             },
             {
-              location: "Terrace Lounge",
-              start: "21:30",
-              end: "22:00",
+              location: "Metcalf Ballroom",
+              start: "22:00",
+              end: "22:30",
               type: "event-1",
-              full_name: "BU Gaming Club"
+              full_name: "Piñata"
+            },
+            {
+              location: "Terrace Lounge",
+              start: "23:00",
+              end: "23:45",
+              type: "event-1",
+              full_name: "BostonHacks Video Games"
             },
             {
               location: "Conference Auditorium",
-              start: "21:45",
-              end: "22:00",
+              start: "23:46",
+              end: "24:00",
               type: "event-1",
               full_name: "Open Mic Karaoke"
             }
