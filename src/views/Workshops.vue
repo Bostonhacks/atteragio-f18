@@ -124,11 +124,6 @@ export default {
           title: "0xBU: Decompiling Programs with Ghidra",
           time: "7:30pm - 8:30pm",
           room: "Room 315"
-        },
-        {
-          title: "Interview Best Practices",
-          time: "9:00pm - 10:00pm",
-          room: "Conference Auditorium"
         }
       ]
     };
